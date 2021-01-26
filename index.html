@@ -14,18 +14,21 @@
       .presidents .roky {background-color: #D7CCC8;}
       .presidents .cr {background-color: #90CAF9;}
       .presidents .sr {background-color: #F8BBD0;}
+      .bezprez{color: gray;}
+      .presidents .line{border-bottom: 3px solid black;}
     </style>
   </head>
   <body>
     <table class="presidents">
-      <caption>seznam preyidentů ČR a Sr od rolu 1989</caption>
+      <caption>seznam prezidentů ČR a Sr od rolu 1989</caption>
       <colgroup>
         <col class="roky"/>
         <col class="roky"/>
-        <col class="cr">
+        <col class="cr"/>
         <col class="sr"/>
+        <col/>
       </colgroup>
-      <thead>
+      <thead class="line">
         <tr>
           <th>Od</th>
           <th>Do</th>
@@ -36,12 +39,12 @@
       </thead>
       <tbody class="komuniste">
         <tr>
-          <td>
+          <th>
             1975
-          </td>
-          <td>
+          </th>
+          <th>
             1989
-          </td>
+          </th>
           <td colspan="3">
             Gustav Husák
           </td>
@@ -49,70 +52,70 @@
       </tbody>
       <tbody class="spolecne">
         <tr>
-          <td>1989</td>
-          <td>1990</td>
+          <th>1989</th>
+          <th>1990</th>
           <td rowspan="2" colspan="2">Václav Havel</td>
           <td>Zvolen federálním schromážděním (s přavhou poslanců KSČ)</td>
         </tr>
         <tr>
-          <td>1990</td>
-          <td>1992</td>
+          <th>1990</th>
+          <th>1992</th>
           <td>31. prosince 1992 zaniká Česko-Slovenská Federální Republiku</td>
         </tr>
       </tbody>
-      <tbody>
+      <tbody class="line">
         <tr>
-          <td>1993</td>
-          <td>1998</td>
+          <th>1993</th>
+          <th>1998</th>
           <td rowspan="3">Václav Havel</td>
           <td>Michal Kováč</td>
           <td></td>
         </tr>
-        <tr>
-          <td>1998</td>
-          <td>1999</td>
-          <td>bez prezidenta</td>
-          <td>Na Slovansku v této době byli pověřeni prezidentskými pravomocemi tehdejší premiéři</td>
+        <tr >
+          <th>1998</th>
+          <th>1999</th>
+          <td class="bezprez">bez prezidenta</td>
+          <td class="bezprez">Na Slovansku v této době byli pověřeni prezidentskými pravomocemi tehdejší premiéři</td>
         </tr>
         <tr>
-          <td>1999</td>
-          <td>2003</td>
+          <th>1999</th>
+          <th>2003</th>
           <td rowspan="2">Rudolf Schuster</td>
           <td></td>
         </tr>
         <tr>
-          <td>2003</td>
-          <td>2004</td>
+          <th>2003</th>
+          <th>2004</th>
           <td rowspan="2">Václav Havel</td>
           <td></td>
         </tr>
         <tr>
-          <td>2004</td>
-          <td>2013</td>
+          <th>2004</th>
+          <th>2013</th>
           <td rowspan="2">Ivan Gasparovič</td>
           <td></td>
         </tr>
         <tr>
-          <td>2013</td>
-          <td>2014</td>
+          <th>2013</th>
+          <th>2014</th>
           <td rowspan="3">Miloš zeman</td>
           <td></td>
         </tr>
         <tr>
-          <td>2014</td>
-          <td>2019</td>
+          <th>2014</th>
+          <th>2019</th>
           <td>Andrej Kiska</td>
           <td></td>
         </tr>
         <tr>
-          <td>2019</td>
-          <td>dosud</td>
+          <th>2019</th>
+          <th>dosud</th>
           <td>Zuzana Čaputová</td>
           <td></td>
         </tr>
       </tbody>
         <tr>
-          <td colspan="2">počet</td>
+          <th colspan="2">počet</th>
           <td>2+3</td>
           <td>2+5</td>
           <td></td>
